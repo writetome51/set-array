@@ -18,7 +18,7 @@ if (arrCopy[0].prop1 && arrCopy[1].prop1) console.log('test 2 passed');
 else console.log('test 2 FAILED');
 
 
-// Test 3: make sure both arrays remain in-sync when assigning a new array of objects:
+// Test 3: make sure both arrays remain in-sync when assigning empty array:
 setArray(arr, []);
 if (arrCopy.length === 0) console.log('test 3 passed');
 else console.log('test 3 FAILED');
@@ -28,3 +28,15 @@ else console.log('test 3 FAILED');
 setArray(arrCopy, [1,2,3,4]);
 if (arraysMatch(arr, [1,2,3,4])) console.log('test 4 passed');
 else console.log('test 4 FAILED');
+
+
+// Test 5: make sure error is triggered if either argument is not array:
+let errorTriggered=false;
+try{
+	setArray({}, [1,2]);
+}
+catch (e) {
+	errorTriggered = true;
+}
+if (errorTriggered) console.log('test 5 passed');
+else console.log('test 5 FAILED');
