@@ -1,4 +1,4 @@
-import { setArray } from './setArray';
+import { setArray} from './setArray';
 import { arraysMatch } from '@writetome51/arrays-match';
 
 

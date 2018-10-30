@@ -1,3 +1,3 @@
-var setArray = require('lib/setArray');
+var setArray = require('./lib/setArray');
 
 module.exports = setArray;
