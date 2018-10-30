@@ -1,3 +1,7 @@
+To include in your project:
+
+import {setArray} from '@writetome51/set-array';
+
 setArray(array, newArray: any[]): void
 
 This assigns a new value to an array without breaking its memory reference.
