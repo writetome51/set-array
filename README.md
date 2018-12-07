@@ -1,15 +1,14 @@
-To include in your project:
+# setArray(array, newArray: any[]): void
 
-import {setArray} from '@writetome51/set-array';
-
-setArray(array, newArray: any[]): void
-
-This assigns a new value to an array without breaking its memory reference.
+Assigns a new value to an array without breaking its memory reference.
 It's a much better alternative to doing this...
 
 array = newArray;
 
 ...which would break the memory reference.
+
+To include in your project:  
+import {setArray} from '@writetome51/set-array';
 
 Example:
 
