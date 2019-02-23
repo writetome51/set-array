@@ -6,13 +6,6 @@ It's a much better alternative to doing this:
 array = newValue; // this breaks the memory reference.
 ```
 
-## Loading
-```  
-// if using ES5 Javascript:
-var setArray = require('@writetome51/set-array').setArray;
-// if using Typescript:
-import {setArray} from '@writetome51/set-array';
-```
 
 ## Examples
 ```
@@ -29,4 +22,15 @@ setArray(arr, [3,4,5,6,7]);
 
 console.log(arrCopy);
 --> [3,4,5,6,7]; // Success!!
+```
+
+## Installation
+`npm i @writetome51/set-array`
+
+## Loading
+```  
+// if using ES5 Javascript:
+var setArray = require('@writetome51/set-array').setArray;
+// if using Typescript:
+import {setArray} from '@writetome51/set-array';
 ```
