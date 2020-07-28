@@ -1,7 +1,8 @@
 {
   "name": "@writetome51/set-array",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Assigns an entirely new value to an array without breaking its memory reference",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -25,9 +26,9 @@
   },
   "homepage": "https://github.com/writetome51/set-array#readme",
   "devDependencies": {
-    "@writetome51/arrays-match": "~1.0.5"
+    "@writetome51/arrays-match": "^2.0.0"
   },
   "dependencies": {
-    "error-if-values-are-not-arrays": "~1.0.2"
+    "error-if-values-are-not-arrays": "^2.0.0"
   }
 }

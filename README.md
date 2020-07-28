@@ -1,6 +1,6 @@
 # setArray(array, newValue: any[]): void
 
-Sets `array` to a `newValue` without breaking its memory reference.
+Sets `array` to a `newValue` without breaking its memory reference.  
 It's a much better alternative to doing this:
 ```
 array = newValue; // this breaks the memory reference.
@@ -28,9 +28,6 @@ console.log(arrCopy);
 `npm i @writetome51/set-array`
 
 ## Loading
-```  
-// if using ES5 Javascript:
-var setArray = require('@writetome51/set-array').setArray;
-// if using Typescript:
-import {setArray} from '@writetome51/set-array';
+```js
+import { setArray } from '@writetome51/set-array';
 ```
