@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/set-array",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Assigns an entirely new value to an array without breaking its memory reference",
   "type": "module",
   "main": "dist/index.js",
@@ -14,6 +14,7 @@
   },
   "keywords": [
     "array",
+    "set",
     "assign",
     "reassign",
     "value",
@@ -29,6 +30,6 @@
     "@writetome51/arrays-match": "^2.0.0"
   },
   "dependencies": {
-    "error-if-values-are-not-arrays": "^2.0.0"
+    "error-if-values-are-not-arrays": "^2.0.1"
   }
 }
