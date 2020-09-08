@@ -1,4 +1,4 @@
-import {setArray} from 'index.js';
+import {setArray} from './index.js';
 import {arraysMatch} from '@writetome51/arrays-match';
 
 
